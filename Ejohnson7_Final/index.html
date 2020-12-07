@@ -1,0 +1,41 @@
+<meta charset="UTF-8">
+<html>
+	<head>
+    <link href="stylesheets/style.css" rel="stylesheet">
+		<script type='text/javascript' src='js/index.js'></script>
+	</head>
+	<body onload="setColors();">
+    <h1 id="banner">Match Game v1.0</h1>
+		<div id="formWrapper">
+			<div id="tileWrapper">
+				<div id="tile11" class="flippable" onclick="flipme(this); return false;"></div>
+				<div id="tile12" class="flippable" onclick="flipme(this); return false;"></div>
+				<div id="tile13" class="flippable" onclick="flipme(this); return false;"></div>
+				<div id="tile14" class="flippable" onclick="flipme(this); return false;"></div>
+				<div id="tile21" class="flippable" onclick="flipme(this); return false;"></div>
+				<div id="tile22" class="flippable" onclick="flipme(this); return false;"></div>
+				<div id="tile23" class="flippable" onclick="flipme(this); return false;"></div>
+				<div id="tile24" class="flippable" onclick="flipme(this); return false;"></div>
+				<div id="tile31" class="flippable" onclick="flipme(this); return false;"></div>
+				<div id="tile32" class="flippable" onclick="flipme(this); return false;"></div>
+				<div id="tile33" class="flippable" onclick="flipme(this); return false;"></div>
+				<div id="tile34" class="flippable" onclick="flipme(this); return false;"></div>
+				<div id="tile41" class="flippable" onclick="flipme(this); return false;"></div>
+				<div id="tile42" class="flippable" onclick="flipme(this); return false;"></div>
+				<div id="tile43" class="flippable" onclick="flipme(this); return false;"></div>
+				<div id="tile44" class="flippable" onclick="flipme(this); return false;"></div>
+			</div>
+			<div id="statsWrapper">
+        <div id="stats">
+          Flips: <input type="text" readonly="true" id="flipCount" size="2" /><input type="hidden" id="fCnt" /><br />
+        </div>
+        <div id="stats">
+          Matches: <input type="text" readonly="true" id="matchCount" size="2" /><input type="hidden" id="mCnt" /><br />
+        </div>
+        <div id="stats">
+          <input type="button" value="Reset" onclick="reloadPage();" />
+        </div>
+			</div>
+		</div>
+	</body>
+</html>

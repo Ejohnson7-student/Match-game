@@ -1,0 +1,44 @@
+#formWrapper {width: 275px;}
+#tileWrapper {position: relative; width: 200px; float: left; }
+#banner {text-align: left; font-size-adjust: 45px;}
+#statsWrapper {
+  text-align: center;
+  float: right;}
+#stats {
+  margin-left: 275px;
+  text-align: right;
+  float: right;
+  display: block;
+  position: auto;
+  padding: 10px; }
+
+			
+#tile11 {position: absolute; left: 0; top: 0; width: 30px; height: 50px; border: 1px solid black;}
+#tile12 {position: absolute; left: 40; top: 0; width: 30px; height: 50px; border: 1px solid black;}
+#tile13 {position: absolute; left: 80; top: 0; width: 30px; height: 50px; border: 1px solid black;}
+#tile14 {position: absolute; left: 120; top: 0; width: 30px; height: 50px; border: 1px solid black;}
+#tile21 {position: absolute; left: 0; top: 60; width: 30px; height: 50px; border: 1px solid black;}
+#tile22 {position: absolute; left: 40; top: 60; width: 30px; height: 50px; border: 1px solid black;}
+#tile23 {position: absolute; left: 80; top: 60; width: 30px; height: 50px; border: 1px solid black;}
+#tile24 {position: absolute; left: 120; top: 60; width: 30px; height: 50px; border: 1px solid black;}
+#tile31 {position: absolute; left: 0; top: 120; width: 30px; height: 50px; border: 1px solid black;}
+#tile32 {position: absolute; left: 40; top: 120; width: 30px; height: 50px; border: 1px solid black;}
+#tile33 {position: absolute; left: 80; top: 120; width: 30px; height: 50px; border: 1px solid black;}
+#tile34 {position: absolute; left: 120; top: 120; width: 30px; height: 50px; border: 1px solid black;}
+#tile41 {position: absolute; left: 0; top: 180; width: 30px; height: 50px; border: 1px solid black;}
+#tile42 {position: absolute; left: 40; top: 180; width: 30px; height: 50px; border: 1px solid black;}
+#tile43 {position: absolute; left: 80; top: 180; width: 30px; height: 50px; border: 1px solid black;}
+#tile44 {position: absolute; left: 120; top: 180; width: 30px; height: 50px; border: 1px solid black;}
+
+/* colors to be set in switch case*/			
+.flippable {background-color: gray;}
+.flipped {background-color: white;}
+			
+.flippedGreen {background-color: green;}
+.flippedBlue {background-color: blue;}
+.flippedRed {background-color: red;}
+.flippedYellow {background-color: yellow;}
+			
+.matched{ background-color: white;}
+.noclick {pointer-events: none;}
+.yesclick {pointer-events: default;}

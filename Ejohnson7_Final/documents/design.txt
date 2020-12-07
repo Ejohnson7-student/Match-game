@@ -1,0 +1,158 @@
+Eric M Johnson II
+Ejohnson7@student.cvtc.edu
+
+Problem Statement: creat a program that randomly assigns colors to a set of tiles. when tiles are flipped and match then the matching tiles are taken out of play. include a counter  count number of tiles flipped.
+
+nouns: tiles
+
+verbs; assigns, flipped, match, count
+
+Defining Diagram:
+
+Inputs: N/A
+
+Processing:
+	create board
+	Flip tile
+	tiles flipped +1
+	assign a match code "Color-flipped" to each tile of that color
+	if two "color-flipped" match
+		take the matching tile out of play
+		matches +1
+	else flip tiles back over
+	hit reset to re-shuffle tiles when done or want to start over
+outputs:
+	visual gameboard with tiles
+	flip counter
+	match cpounter
+
+test 1
+  do tiles flip?
+    expected results: yes
+    actual results: yes
+  do un-matching tiles unflip?
+    expected results: yes
+    actual results: yes
+  do matching tiles dispear?
+    expected results: yes
+    actual results: yes
+  does it count tiles flipped?
+    expected results: yes
+    actual results: yes
+  does reset button clear counters?
+    expected results: yes
+    actual results: yes
+  does reset button clear and reset board?
+    expected results: yes
+    actual results: yes
+  did the tiles reset in different colors?
+    expected results: yes
+    actual results: yes
+
+
+test 2
+  do tiles flip?
+    expected results: yes
+    actual results: yes
+  do un-matching tiles unflip?
+    expected results: yes
+    actual results: yes
+  do matching tiles dispear?
+    expected results: yes
+    actual results: yes
+  does it count tiles flipped?
+    expected results: yes
+    actual results: yes
+  does reset button clear counters?
+    expected results: yes
+    actual results: yes
+  does reset button clear and reset board?
+    expected results: yes
+    actual results: yes
+  did the tiles reset in different colors?
+    expected results: yes
+    actual results: yes
+
+test 3
+  do tiles flip?
+    expected results: yes
+    actual results: yes
+  do un-matching tiles unflip?
+    expected results: yes
+    actual results: yes
+  do matching tiles dispear?
+    expected results: yes
+    actual results: yes
+  does it count tiles flipped?
+    expected results: yes
+    actual results: yes
+  does reset button clear counters?
+    expected results: yes
+    actual results: yes
+  does reset button clear and reset board?
+    expected results: yes
+    actual results: yes
+  did the tiles reset in different colors?
+    expected results: yes
+    actual results: yes
+
+
+
+Solution algorith:
+
+ initialize var green as g
+ initialize var blue as b
+ initialize var yellow as y
+ initialize var red as d
+setColors
+ for r=1; r<5; r++
+   var el = 'tile' +r+c
+   var thisel = documment.getElementById(el)
+   var f = false
+   do
+     var v = math.floor(math.random() * (5-1) +1)
+     switch(v)
+   x4  case 1 - 4
+*cases for each color*
+   x4    if (g < 4)
+           thisEl.classlist.add('color')
+           g++
+           f = true
+         else
+           f = false...
+
+
+    while (f == false)
+END
+FLipMe
+  initialize flipCount set to fCnt.value, fCnt++
+  initialize f = "flipped"
+  if f > 1
+	unflip tiles()
+  if tile class contains 'flippable'
+	remove 'flippable' class add 'flipped' class
+* x4 else for each color 
+	if 'color"
+	  add 'flippedcolor' to tile class
+  else
+    remove "flipped" from class
+    add 'flippable' to return to gameplay
+ x4 if contains 'color'
+      remove 'flippedcolor'
+
+End
+unflipTiles
+  initialize match1
+  initialize match2
+  remove 'flipped from m1 and m2
+  add flippable to both m1 and m2
+2xif *controls flip back on cards clicked 
+  4x class contains 'color' 
+    remove 'filppedcolor'
+END
+reset button
+  reset values to 0
+  reload board
+END
+
+
